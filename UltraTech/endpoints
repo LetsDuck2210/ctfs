@@ -1,0 +1,7 @@
+$IP:8081/ping?ip=^IP^
+$IP:8081/auth?login=^USER^&password=^PASS^
+$IP:31331/
+$IP:31331/index.html
+$IP:31331/what.html
+$IP:31331/utech_sitemap.txt
+$IP:31331/partners.html

@@ -1,0 +1,20 @@
+# Nmap 7.95 scan initiated Tue Aug 13 00:49:25 2024 as: nmap -sV -sC -oN nmap -p- -v 10.10.196.39
+Nmap scan report for 10.10.196.39
+Host is up (0.039s latency).
+Not shown: 65533 closed tcp ports (conn-refused)
+PORT      STATE SERVICE VERSION
+8081/tcp  open  http    Node.js Express framework
+| http-methods: 
+|_  Supported Methods: GET HEAD POST OPTIONS
+|_http-cors: HEAD GET POST PUT DELETE PATCH
+|_http-title: Site doesn't have a title (text/html; charset=utf-8).
+31331/tcp open  http    Apache httpd 2.4.29 ((Ubuntu))
+|_http-favicon: Unknown favicon MD5: 15C1B7515662078EF4B5C724E2927A96
+|_http-title: UltraTech - The best of technology (AI, FinTech, Big Data)
+| http-methods: 
+|_  Supported Methods: HEAD GET POST OPTIONS
+|_http-server-header: Apache/2.4.29 (Ubuntu)
+
+Read data files from: /usr/bin/../share/nmap
+Service detection performed. Please report any incorrect results at https://nmap.org/submit/ .
+# Nmap done at Tue Aug 13 00:58:58 2024 -- 1 IP address (1 host up) scanned in 572.70 seconds
