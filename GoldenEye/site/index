@@ -1,0 +1,11 @@
+<html>
+<head>
+<title>GoldenEye Primary Admin Server</title>
+<link rel="stylesheet" href="index.css">
+</head>
+
+	<span id="GoldenEyeText" class="typeing"></span><span class='blinker'>&#32;</span>
+
+<script src="terminal.js"></script>
+	
+</html>

