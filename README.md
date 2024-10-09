@@ -11,3 +11,5 @@
 - [**MrRobot**](MrRobot/solution.md)
 
 - [**StuxCTF**](StuxCTF/solution.md)
+
+- [**Nax**](Nax/solution.md)

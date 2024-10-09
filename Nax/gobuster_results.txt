@@ -1,0 +1,41 @@
+===============================================================
+Gobuster v3.6
+by OJ Reeves (@TheColonial) & Christian Mehlmauer (@firefart)
+===============================================================
+[+] Url:                     http://10.10.52.148
+[+] Method:                  GET
+[+] Threads:                 10
+[+] Wordlist:                /opt/wordlists/dirs/dsplusleakypaths.txt
+[+] Negative Status codes:   404
+[+] User Agent:              gobuster/3.6
+[+] Follow Redirect:         true
+[+] Timeout:                 10s
+===============================================================
+Starting gobuster in directory enumeration mode
+===============================================================
+[2K/index.php            (Status: 200) [Size: 2968]
+[2K/.htaccess            (Status: 403) [Size: 277]
+[2K/javascript           (Status: 403) [Size: 277]
+[2K/.htpasswd            (Status: 403) [Size: 277]
+[2K/.htpasswds           (Status: 403) [Size: 277]
+[2K/.%2e/.%2e/.%2e/.%2e/.%2e/.%2e/.%2e/.%2e/.%2e/.%2e/.%2e/.%2e/.%2e/.%2e/var/www/html/index.html (Status: 400) [Size: 304]
+[2K/./../../../../../../../../../../etc/passwd (Status: 400) [Size: 304]
+[2K/.htpasswd            (Status: 403) [Size: 277]
+[2K/.htaccess            (Status: 403) [Size: 277]
+[2K/?wsdl                (Status: 200) [Size: 1332]
+[2K/?view=log            (Status: 200) [Size: 1332]
+[2K/index.html           (Status: 200) [Size: 1332]
+[2K/index.php/admin/     (Status: 200) [Size: 2968]
+[2K/index.php?r=students/guardians/create&id=1%22%3E%3Cscript%3Ealert%28document.domain%29%3C%2Fscript%3E (Status: 200) [Size: 2968]
+[2K/index.php            (Status: 200) [Size: 2968]
+[2K/index.php?redirect=//evil.com (Status: 200) [Size: 2968]
+[2K/index.php?appservlang=%3Csvg%2Fonload=confirm%28%27xss%27%29%3E (Status: 200) [Size: 2968]
+[2K/index.php?redirect=/\/evil.com/ (Status: 200) [Size: 2968]
+[2K/nagios               (Status: 401) [Size: 459]
+[2K/nagios/cgi-bin/status.cgi (Status: 401) [Size: 459]
+[2K/server-status        (Status: 403) [Size: 277]
+[2K/static/../../../a/../../../../etc/passwd (Status: 400) [Size: 304]
+
+===============================================================
+Finished
+===============================================================
